@@ -11,4 +11,9 @@ public class ControllerTwo {
     public String exampleOne() {
         return "first end point";
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "You have been authenticated";
+    }
 }
